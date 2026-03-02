@@ -1,0 +1,1 @@
+package com.agmsolutions.fabrick_test.configurations;import lombok.AllArgsConstructor;import lombok.Builder;import lombok.Data;import lombok.NoArgsConstructor;import java.util.List;@Data@NoArgsConstructor@AllArgsConstructor@Builderpublic class Response<T> {    private String status;    private List<Object> errors;    private T payload;}

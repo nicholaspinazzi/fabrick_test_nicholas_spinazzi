@@ -1,3 +1,11 @@
 spring:
   application:
     name: fabrick_test
+
+fabrick-sandbox:
+  base-url: https://sandbox.platfr.io
+  auth-schema: S2S
+  api-key: FXOVVXXHVCPVPBZXIJOBGUGSKHDNFRRQJP
+  id-key: 3202
+
+test-account-id: 14537780

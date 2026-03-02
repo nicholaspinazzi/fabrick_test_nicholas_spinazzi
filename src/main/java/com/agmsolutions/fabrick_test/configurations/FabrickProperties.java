@@ -1,0 +1,1 @@
+package com.agmsolutions.fabrick_test.configurations;import lombok.Data;import org.springframework.boot.context.properties.ConfigurationProperties;@ConfigurationProperties(prefix = "fabrick-sandbox")@Datapublic class FabrickProperties {    private String baseUrl;    private String authSchema;    private String apiKey;    private String idKey;}
